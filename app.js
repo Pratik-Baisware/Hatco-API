@@ -10,7 +10,7 @@ app.get("/", (req,res) => {
 });
 
 // middleware or to set router
-app.use("/api/lockers", products_routes);
+app.use("/api", products_routes);
 
 const start = () => {
     try {

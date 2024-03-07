@@ -7,7 +7,7 @@ const {
 } = require("../controllers/Lockers");
 
 router.route("/").get(getAllOrders);
-router.route("/details").get(getAllOrdersDetails);
+router.route("/reservation").get(getAllOrdersDetails);
 
 
 module.exports = router;
